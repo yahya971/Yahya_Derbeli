@@ -301,8 +301,8 @@ footer a:not(.nav-link) {
   transform: translateX(0);
   }
   100% {
-  -webkit-transform: translateX(calc(-250px * 7));
-  transform: translateX(calc(-250px * 7));
+  -webkit-transform: translateX(calc(-250px * 8));
+  transform: translateX(calc(-250px * 8));
   }
   }
   @keyframes scroll {
@@ -311,8 +311,8 @@ footer a:not(.nav-link) {
   transform: translateX(0);
   }
   100% {
-  -webkit-transform: translateX(calc(-250px * 7));
-  transform: translateX(calc(-250px * 7));
+  -webkit-transform: translateX(calc(-250px * 8));
+  transform: translateX(calc(-250px * 8));
   }
   }
   .slider {
@@ -348,7 +348,7 @@ footer a:not(.nav-link) {
   -webkit-animation: scroll 40s linear infinite;
   animation: scroll 40s linear infinite;
   display: flex;
-  width: calc(250px * 14);
+  width: calc(250px * 16);
   }
   .slider .slide {
   display: flex;
